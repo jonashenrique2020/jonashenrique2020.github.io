@@ -1,0 +1,207 @@
+html, body{
+    margin: 0;
+    line-height: 1.5;
+}
+p{
+    font-family: 'Merriweather', serif;
+}
+.familiazona{
+    font-family: 'PT Serif Caption', serif;
+}
+.fontemaiusculo{
+    text-transform: uppercase;
+}
+.corfonte{
+    color: rgb(250, 109, 250);
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 2%;
+    position: absolute;
+}
+
+#menu{
+    float: right;
+    margin-right: 2%;
+    list-style: none;    
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    float: left;
+    padding: 20px 10px 16px 10px;
+}
+
+li:hover{
+    background-color: rgb(255, 157, 206);
+}
+
+#imagem_fundo{
+    background: url(jonaocapaoori.jpg);
+    background-size: 1500px;
+    height: 597px;
+    text-align: center;
+    padding: 30px;
+    background-attachment: fixed;
+}
+
+#titulo{
+    color: black;
+    letter-spacing: 3px;
+    text-shadow: black;
+    padding-top: 13%;
+    font-size: 50px;
+    line-height: 1; 
+
+}
+
+#subtitulo{
+    color: black;
+    font-weight: 100;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px black solid;
+}
+
+#acao{
+    color: black;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+#acao:hover{
+    background-color: rgb(171, 219, 76);
+}
+.frasesimone{
+    
+    text-decoration-color: white;
+    text-emphasis-color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+#jonas{ 
+    background-color: rgb(255, 157, 206);
+    text-align: center;
+    margin-top: 0px;
+
+}
+#linksimone{
+    text-decoration-color: black;
+    text-size-adjust: 40px;
+}
+.fonte{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.icone{
+    width: 70px;
+}
+
+section{
+    padding: 20px;
+    float: left;
+}
+
+.destaque{
+    background-color: #f7f7f7;
+}
+
+.img{
+    width: 90%;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative; 
+    text-align: center;   
+}
+
+.dois{
+    width: 40%;
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+.quatro{
+    width: 15%;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+#video{
+    padding-top: 3%;
+}
+#minhafoto{
+    border: rgb(243, 158, 243) solid 10;
+
+}
+
+footer{
+    background-color: rgb(243, 158, 243);
+    float: left;
+    width: 100%;
+    color: white;
+}
+
+h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.top{
+    padding-top: 50px;
+}
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+        text-align: center;
+    }
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logo{
+        margin: 1.5% 0 0 0;
+        transform: translateX(-50%);
+
+    }
+}
